@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧**"
+HELP_STRING = f"˹MONSTER˼🫧 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
     ],
     [
-      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/OXEGN"),
-      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/+XpL0qhdF7TQzNDVl")
+      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "JUST_ME_NOBITA"),
+      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/MONSTER_X_SUDO")
     ]
   ]
 
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl} 𝐋𝐄𝐀𝐕𝐄 : 𝐓𝐘𝐏𝐄 𝐈𝐍 𝐓𝐇𝐄𝐈𝐑 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 𝐖𝐈𝐋𝐋 𝐀𝐔𝐓𝐎 𝐋𝐄𝐀𝐕𝐄 𝐓𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏 
 
 
-**© ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧**
+**© ˹MONSTER˼🫧**
 """
 
                  
@@ -91,7 +91,7 @@ raid_msg = f"""
   1) {hl} 𝐂𝐑𝐀𝐈𝐃 < 𝐂𝐎𝐔𝐍𝐓 > < 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 >
   2) {hl} 𝐂𝐑𝐀𝐈𝐃 < 𝐂𝐎𝐔𝐍𝐓 > <𝐑𝐄𝐏𝐋𝐘 𝐓𝐎 𝐀 𝐔𝐒𝐄𝐑 >
 
-**© ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧**💘
+**© ˹MONSTER˼🫧**💘
 """
 
 spam_msg = f"""
@@ -108,7 +108,7 @@ spam_msg = f"""
   1) {hl}𝐇𝐀𝐍𝐆 < 𝐂𝐎𝐔𝐍𝐓𝐄𝐑 >
 
 
-** © ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧**
+** © ˹MONSTER˼🫧**
 """                     
            
            
@@ -135,13 +135,13 @@ async def helpback(event):
                 Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
               ],
               [
-                Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/OXEGN"),
-                Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/+XpL0qhdF7TQzNDVl")
+                Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "JUST_ME_NOBITA"),
+                Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/MONSTER_X_SUDO")
               ]
             ]
           )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @𝐏𝐑𝐀𝐃𝐇𝐀𝐍474★" , cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -160,7 +160,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @𝐏𝐑𝐀𝐃𝐇𝐀𝐍474★", cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -179,7 +179,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @𝐏𝐑𝐀𝐃𝐇𝐀𝐍474★", cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -198,4 +198,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @𝐏𝐑𝐀𝐃𝐇𝐀𝐍474★", cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
