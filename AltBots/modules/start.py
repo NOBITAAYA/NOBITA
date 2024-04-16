@@ -9,10 +9,10 @@ START_BUTTON = [
     ],
     [
         Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "@JUST_ME_NOBITA"),
-        Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/MONSTER_X_SUDO")
+        Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/MRATYU")
     ],
     [
-        Button.url("★𝗖𝗢𝗗𝗘𝗥★", "https://t.me/+y01nW58fxRA0ODA1")
+        Button.url("★𝗖𝗢𝗗𝗘𝗥★", "https://t.me/NOBITA_DEVLOPE_THINGS")
     ]
 ]
 
