@@ -1,6 +1,6 @@
 <h1 align="center"><b>[✨🥀]  🫧 🇳​🇴​𝐁𝐈𝐓𝐀 [✨🥀]</b></h1>
 
-<h4 align="center"> 𝐀 POWER FULL PAPABOT</h4>
+<h4 align="center"> 𝐀 POWERFULL SPAM BOT</h4>
 
 <p align="center"><a href="https://t.me/MRATYU"><img src="https://telegra.ph/file/900a16805b58b27e1c522.jpg" width="400"></a></p>0
 
