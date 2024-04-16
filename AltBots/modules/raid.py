@@ -35,11 +35,11 @@ async def raid(e):
 
         try:
             if uid in ALTRON:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ✨🥀")
+                await e.reply("ɴᴏ, APNE PAPA PE RAID NAHI KARTE BOSDIKR✨🥀")
             elif uid == OWNER_ID:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ🥀")
+                await e.reply("ɴᴏ, APNE PAPA PE RAID NAHI KARTE BOSDIKE🥀")
             elif uid in SUDO_USERS:
-                await e.reply("ɴᴏ, ye vii nobita ka bacah he yaar ⚡🥵")
+                await e.reply("ɴᴏ, BHAI DEKH TUM LOOG KA PAPA NOBITA TO BHAI BHAI LADTE NAHI HE SAMJE NA ⚡🥵")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
@@ -100,11 +100,11 @@ async def rraid(e):
         try:
             user_id = entity.id
             if user_id in ALTRON:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ✨🥀")
+                await e.reply("No,APNE PAPA PE RAID NAHI KARTE HE BOSDIKE ✨🥀")
             elif user_id == OWNER_ID:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ🥀")
+                await e.reply("ɴᴏ,APNE PAPA PE RAID NAHI KARTE HE BOSDIKE 🥀")
             elif user_id in SUDO_USERS:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ✨")
+                await e.reply("ɴᴏ, BHAI DEKH TUM  LOOG KA PAPA NOBITA TO TUM DONO BHAI BHAI TO LADTE NAHI SAMJE NA✨")
             else:
                 global REPLY_RAID
                 check = f"{user_id}_{e.chat_id}"
