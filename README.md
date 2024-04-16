@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/MRATYU"><img src="https://telegra.ph/file/864d7854ff24067555642.mp4" width="400"></a></p>0
+<p align="center"><a href="https://t.me/MRATYU"><img src="https://telegra.ph/file/900a16805b58b27e1c522.jpg" width="400"></a></p>0
 
 
 > ⭐️ Thanks to everyone for using this op ™°‌ 🫧 NOBITA. That is the greatest pleasure we have !
