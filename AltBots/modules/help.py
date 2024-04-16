@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"˹MONSTER˼🫧 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧**"
+HELP_STRING = f"˹🫧 🇳​🇴​𝐁𝐈𝐓𝐀˼🫧 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹🫧 🇳​🇴​𝐁𝐈𝐓𝐀**"
 
 HELP_BUTTON = [
     [
@@ -15,7 +15,7 @@ HELP_BUTTON = [
     ],
     [
       Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "JUST_ME_NOBITA"),
-      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/MONSTER_X_SUDO")
+      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/https://t.me/MRATYU")
     ]
   ]
 
@@ -108,7 +108,7 @@ spam_msg = f"""
   1) {hl}𝐇𝐀𝐍𝐆 < 𝐂𝐎𝐔𝐍𝐓𝐄𝐑 >
 
 
-** © ˹MONSTER˼🫧**
+** © ˹🫧 🇳​🇴​𝐁𝐈𝐓𝐀˼🫧**
 """                     
            
            
@@ -141,7 +141,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★" , cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR https://t.me/MRATYU @JUST_ME_NOBITA★" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -160,7 +160,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR https://t.me/MRATYU @JUST_ME_NOBITA★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -179,7 +179,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KARhttps://t.me/MRATYU @JUST_ME_NOBITA★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -198,4 +198,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
+        await event.answer("★BOSDIKE JA PAHLE NOBITA KO DM KAR OR GC https://t.me/MRATYU JOIN KAR @JUST_ME_NOBITA★", cache_time=0, alert=True)
